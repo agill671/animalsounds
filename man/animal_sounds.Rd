@@ -7,9 +7,9 @@
 animal_sounds(animal, sound)
 }
 \arguments{
-\item{animal}{A \strong{string} containing an animal name. Must be longer than 1 character.}
+\item{animal}{A \strong{string} containing an animal name.}
 
-\item{sound}{A \strong{string} containing the sound that the animal makes. Must be longer than 1 character.}
+\item{sound}{A \strong{string} containing the sound that the animal makes.}
 }
 \value{
 A \strong{string} in the form "The \{animal\} says \{sound\}!"
