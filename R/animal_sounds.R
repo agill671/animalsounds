@@ -12,7 +12,7 @@
 #'
 #' @examples
 #' animal_sounds("dog", "woof")
-animal_sounds <- function(animal, sound) {
+animal_sounds <- function(animal, sound = NULL) {
 
   if (!rlang::is_character(animal, n = 1)) {
     cli::cli_abort(
@@ -20,6 +20,10 @@ animal_sounds <- function(animal, sound) {
         "i" = "It was {.type {animal}} of length {length(animal)} instead."),
       class = "error_not_single_string"
     )
+  }
+
+  if (is.null(sound)) {
+    return(paste0("The ", animal, " makes no sound."))
   }
 
   if (!rlang::is_character(sound, n = 1)) {
