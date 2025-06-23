@@ -2,10 +2,12 @@
 #'
 #' Print the sound that an animal makes in the console.
 #'
-#' @param animal A string containing the animal name. Must be longer than 1 character.
-#' @param sound A string containing the sound. Must be longer than 1 character.
+#' Is a wrapper to [paste0()]. This is a *silly* function in a **toy package**.
 #'
-#' @returns A string in the form "The \{animal\} says \{sound\}!"
+#' @param animal A **string** containing an animal name. Must be longer than 1 character.
+#' @param sound A **string** containing the sound that the animal makes. Must be longer than 1 character.
+#'
+#' @returns A **string** in the form "The \{animal\} says \{sound\}!"
 #' @export
 #'
 #' @examples

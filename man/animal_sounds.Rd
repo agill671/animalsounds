@@ -7,15 +7,18 @@
 animal_sounds(animal, sound)
 }
 \arguments{
-\item{animal}{A string containing the animal name. Must be longer than 1 character.}
+\item{animal}{A \strong{string} containing an animal name. Must be longer than 1 character.}
 
-\item{sound}{A string containing the sound. Must be longer than 1 character.}
+\item{sound}{A \strong{string} containing the sound that the animal makes. Must be longer than 1 character.}
 }
 \value{
-A string in the form "The \{animal\} says \{sound\}!"
+A \strong{string} in the form "The \{animal\} says \{sound\}!"
 }
 \description{
 Print the sound that an animal makes in the console.
+}
+\details{
+Is a wrapper to \code{\link[=paste0]{paste0()}}. This is a \emph{silly} function in a \strong{toy package}.
 }
 \examples{
 animal_sounds("dog", "woof")
