@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/agill671/animalsounds/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/agill671/animalsounds/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of animalsounds is to print the sounds that animals make.
