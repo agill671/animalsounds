@@ -25,7 +25,7 @@ The goal of animalsounds is to print the sounds that animals make.
 
 You can install the development version of animalsounds from [GitHub](https://github.com/) with:
 
-``` r
+``` {r setup}
 # install.packages("pak")
 pak::pak("agill671/animalsounds")
 ```
